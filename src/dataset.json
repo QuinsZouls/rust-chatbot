@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "saludo",
+    "cases": [
+      "Hola, ¿Cómo éstas?",
+      "Hola",
+      "Buen día",
+      "Buenas tardes"
+    ],
+    "answers": [
+      "Hola, ¿En qué puedo ayudarlo?",
+      "Bienvenido",
+      "Hola!"
+    ]
+  },
+  {
+    "slug": "despedida",
+    "cases": [
+      "Nos vemos",
+      "Adios",
+      "Hasta la próxima",
+      "Hasta luego",
+      "Me tengo que ir",
+      "Bye"
+    ],
+    "answers": [
+      "Bye bye",
+      "Fué un placer"
+    ]
+  }, {
+    "slug": "soporte",
+    "cases": [
+      "Me podría ayudar?",
+      "Tengo una duda",
+      "Me podría auxiliar",
+      "Necesito su ayuda"
+    ],
+    "answers": [
+      "Claro, ¿En qué puedo ayudarlo?"
+    ]
+  }
+]
