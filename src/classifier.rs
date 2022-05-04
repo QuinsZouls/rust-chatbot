@@ -72,8 +72,9 @@ impl NaiveBayesClassifier {
 }
 
 fn get_tokenized_and_stemmed<'a>(text: &'a str) -> Vec<Cow<'a, str>> {
-  let en_stemmer = Stemmer::create(Algorithm::English);
+  let es_stemmer = Stemmer::create(Algorithm::Spanish);
+  //println!("Stem {}: {}", text, es_stemmer.stem(text));
   tokenize(text).into_iter()
-                .map(|text| en_stemmer.stem(text))
+                .map(|text| es_stemmer.stem(text))
                 .collect()
 }

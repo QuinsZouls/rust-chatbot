@@ -38,5 +38,37 @@
     "answers": [
       "Claro, ¿En qué puedo ayudarlo?"
     ]
+  }, {
+    "slug": "horario_general",
+    "cases": [
+      "¿Cuál es su horario?",
+      "Cada cuando trabajan?",
+      "Cuál es su disponibilidad de horario?"
+    ],
+    "answers":[
+      "Mi horario es de lunes a viernes de 7am a 8pm."
+    ]
+  },
+  {
+    "slug": "horario_apertura",
+    "cases": [
+      "¿A qué hora abren?",
+      "Cuando abren?",
+      "¿Cuál es su hora de apertura?"
+    ],
+    "answers":[
+      "Abro a las 7am."
+    ]
+  },
+  {
+    "slug": "horario_cierre",
+    "cases": [
+      "¿A qué hora cierran?",
+      "Cuando cierran?",
+      "¿Cuál es su hora de cierre?"
+    ],
+    "answers":[
+      "Cierro a las 8pm."
+    ]
   }
 ]
